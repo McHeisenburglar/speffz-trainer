@@ -95,6 +95,8 @@ body {
 .button {
 	cursor: pointer;
 	padding: 1em 2em;
+	text-decoration: none;
+	color: white;
 	font-family: 'Montserrat', 'Helvetica';
 	font-weight: 600;
 	font-size: 1em;
@@ -107,7 +109,7 @@ body {
 
 .button.primary {
 	background: #ececee;
-	color: 24272c;
+	color: #24272c;
 	&:hover {
 		background: darken(#ececee, 5%);
 	}

@@ -60,7 +60,8 @@ function nextPiece() {
 }
 
 function replaceLetter(newLetter) {
-	$('#content-letter').text(newLetter.toUpperCase());
+	const content = newLetter ? newLetter.toUpperCase() : '?';
+	$('#content-letter').text(content);
 }
 
 function addCorrect() {
@@ -103,6 +104,21 @@ window.addEventListener('keypress', (e) => {
 	}
 	render();
 });
+
+function reveal() {
+	const answer = getCurrentSticker();
+	replaceLetter(answer);
+	styleLetter('correct');
+	render();
+
+	setTimeout(() => {
+		replaceLetter();
+		styleLetter('pending');
+		nextPiece();
+	}, 1000);
+}
+
 window.addEventListener('load', startNewGame);
 $('.button-reset').on('click', startNewGame);
+$('.button-reveal').on('click', reveal);
 $('.button-next').on('click', nextPiece);

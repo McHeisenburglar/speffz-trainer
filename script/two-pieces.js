@@ -19,7 +19,7 @@ let guess = {
 };
 
 const getCurrentStickers = () => {
-	return { left: sequence[0], right: sequence[1] };
+	return { left: sequence[index], right: sequence[index + 1] };
 };
 function resetSequence() {
 	sequence = newSequence();
@@ -143,6 +143,23 @@ window.addEventListener('keypress', (e) => {
 	}
 	render();
 });
+
+function reveal() {
+	const answer = getCurrentStickers();
+	guess.left = answer.left;
+	guess.right = answer.right;
+	styleLetter('left', 'correct');
+	styleLetter('right', 'correct');
+	render();
+
+	setTimeout(() => {
+		resetGuesses();
+		resetStyles();
+		nextPieces();
+	}, 1000);
+}
+
 window.addEventListener('load', startNewGame);
 $('.button-reset').on('click', startNewGame);
 $('.button-next').on('click', nextPieces);
+$('.button-reveal').on('click', reveal);
