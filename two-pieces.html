@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/stickers.css">
+	<title>Edge Trainer</title>
+</head>
+
+<body>
+	<div class="main content">
+		<div class="piece-frame double">
+			<div class="piece-parent">
+				<svg class="piece edge a" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path class="sticker sticker-main" d="M36.4839 10H163.516L175 130H25L36.4839 10Z" fill="#23C646" />
+					<path class="sticker sticker-bottom" d="M44.4839 190H155.516L175 130H25L44.4839 190Z"
+						fill="#FF124B" />
+				</svg>
+			</div>
+		</div>
+		<div class="letter-container double">
+			<div class="">
+				<h1 id="content-letter-left" class="letter left status-pending">
+					?
+				</h1>
+			</div>
+			<div class="">
+				<h1 id="content-letter-right" class="letter right status-pending">
+					?
+				</h1>
+			</div>
+		</div>
+		<div class="scores-container ">
+			<div class="scores scores-flex">
+				<div class="score-correct">
+					<span class="score-number" id="content-correct">0</span> correct
+				</div>
+				<div class="score-incorrect">
+					<span class="score-number" id="content-incorrect">0</span> incorrect
+				</div>
+			</div>
+		</div>
+		<div class="buttons-container">
+			<button class="button normal button-reset">Reset</button>
+			<button class="button primary button-next">Next</button>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="/script/two-pieces.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+$ui-bg-01: #33363b;
+$ui-bg-02: #24272c;
+$sticker-white: #ffffff;
+$sticker-orange: #ff7a00;
+$sticker-red: #ff124b;
+$sticker-blue: #0797ff;
+$sticker-yellow: #ebff03;
+$sticker-green: #23c646;
+
+/* UI */
+
+html {
+	font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: $ui-bg-02;
+}
+
+.content {
+	padding: 4em;
+	margin: 2em auto;
+	max-width: 800px;
+	// background-color: $ui-bg-01;
+}
+
+.dev {
+	outline: 1px solid red;
+}
+
+.letter-container {
+	padding: 3em;
+	h1.letter {
+		font-size: 10em;
+		text-align: center;
+		&.status-correct {
+			color: $sticker-green;
+		}
+		&.status-incorrect {
+			color: $sticker-red;
+		}
+		&.status-pending {
+			color: #51555c;
+		}
+	}
+}
+
+.letter-container.double {
+	padding: 3em 0;
+	display: flex;
+	gap: 0px;
+	div {
+		flex: 1 1 0;
+	}
+}
+
+.scores-container {
+	padding: 2em;
+	width: 100%;
+	.scores-flex {
+		display: flex;
+		justify-content: space-around;
+		font-size: 1.2em;
+		span {
+			font-weight: bold;
+		}
+		.score-correct {
+			color: $sticker-green;
+		}
+		.score-incorrect {
+			color: $sticker-red;
+		}
+	}
+}
+
+.log {
+	min-width: 200px;
+}
+
+.buttons-container {
+	padding: 2em;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.button {
+	cursor: pointer;
+	padding: 1em 2em;
+	font-family: 'Montserrat', 'Helvetica';
+	font-weight: 600;
+	font-size: 1em;
+	transition: 0.3s;
+}
+
+.button:hover {
+	transition: 0.3s;
+}
+
+.button.primary {
+	background: #ececee;
+	color: 24272c;
+	&:hover {
+		background: darken(#ececee, 5%);
+	}
+}
+
+.button.normal {
+	background: #42464d;
+	color: white;
+	&:hover {
+		background: lighten(#42464d, 5%);
+	}
+}
+
+.button,
+.button:hover,
+.button:focus {
+	outline: none;
+	border: none;
+}

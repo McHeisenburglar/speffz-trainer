@@ -1,0 +1,207 @@
+.edge.piece.a .sticker-main {
+  fill: #ffffff;
+}
+
+.edge.piece.a .sticker-bottom {
+  fill: #0797ff;
+}
+
+.edge.piece.b .sticker-main {
+  fill: #ffffff;
+}
+
+.edge.piece.b .sticker-bottom {
+  fill: #ff124b;
+}
+
+.edge.piece.c .sticker-main {
+  fill: #ffffff;
+}
+
+.edge.piece.c .sticker-bottom {
+  fill: #23c646;
+}
+
+.edge.piece.d .sticker-main {
+  fill: #ffffff;
+}
+
+.edge.piece.d .sticker-bottom {
+  fill: #ff7a00;
+}
+
+.edge.piece.e .sticker-main {
+  fill: #ff7a00;
+}
+
+.edge.piece.e .sticker-bottom {
+  fill: #ffffff;
+}
+
+.edge.piece.f .sticker-main {
+  fill: #ff7a00;
+}
+
+.edge.piece.f .sticker-bottom {
+  fill: #23c646;
+}
+
+.edge.piece.g .sticker-main {
+  fill: #ff7a00;
+}
+
+.edge.piece.g .sticker-bottom {
+  fill: #ebff03;
+}
+
+.edge.piece.h .sticker-main {
+  fill: #ff7a00;
+}
+
+.edge.piece.h .sticker-bottom {
+  fill: #0797ff;
+}
+
+.edge.piece.i .sticker-main {
+  fill: #23c646;
+}
+
+.edge.piece.i .sticker-bottom {
+  fill: #ffffff;
+}
+
+.edge.piece.j .sticker-main {
+  fill: #23c646;
+}
+
+.edge.piece.j .sticker-bottom {
+  fill: #ff124b;
+}
+
+.edge.piece.k .sticker-main {
+  fill: #23c646;
+}
+
+.edge.piece.k .sticker-bottom {
+  fill: #ebff03;
+}
+
+.edge.piece.l .sticker-main {
+  fill: #23c646;
+}
+
+.edge.piece.l .sticker-bottom {
+  fill: #ff7a00;
+}
+
+.edge.piece.m .sticker-main {
+  fill: #ff124b;
+}
+
+.edge.piece.m .sticker-bottom {
+  fill: #ffffff;
+}
+
+.edge.piece.n .sticker-main {
+  fill: #ff124b;
+}
+
+.edge.piece.n .sticker-bottom {
+  fill: #0797ff;
+}
+
+.edge.piece.o .sticker-main {
+  fill: #ff124b;
+}
+
+.edge.piece.o .sticker-bottom {
+  fill: #ebff03;
+}
+
+.edge.piece.p .sticker-main {
+  fill: #ff124b;
+}
+
+.edge.piece.p .sticker-bottom {
+  fill: #23c646;
+}
+
+.edge.piece.q .sticker-main {
+  fill: #0797ff;
+}
+
+.edge.piece.q .sticker-bottom {
+  fill: #ffffff;
+}
+
+.edge.piece.r .sticker-main {
+  fill: #0797ff;
+}
+
+.edge.piece.r .sticker-bottom {
+  fill: #ff7a00;
+}
+
+.edge.piece.s .sticker-main {
+  fill: #0797ff;
+}
+
+.edge.piece.s .sticker-bottom {
+  fill: #ebff03;
+}
+
+.edge.piece.t .sticker-main {
+  fill: #0797ff;
+}
+
+.edge.piece.t .sticker-bottom {
+  fill: #ff124b;
+}
+
+.edge.piece.u .sticker-main {
+  fill: #ebff03;
+}
+
+.edge.piece.u .sticker-bottom {
+  fill: #23c646;
+}
+
+.edge.piece.v .sticker-main {
+  fill: #ebff03;
+}
+
+.edge.piece.v .sticker-bottom {
+  fill: #ff124b;
+}
+
+.edge.piece.w .sticker-main {
+  fill: #ebff03;
+}
+
+.edge.piece.w .sticker-bottom {
+  fill: #0797ff;
+}
+
+.edge.piece.x .sticker-main {
+  fill: #ebff03;
+}
+
+.edge.piece.x .sticker-bottom {
+  fill: #ff7a00;
+}
+
+.piece-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+}
+
+.piece-frame .piece-parent {
+  width: 320px;
+  height: auto;
+}
+/*# sourceMappingURL=stickers.css.map */
