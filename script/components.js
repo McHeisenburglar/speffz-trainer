@@ -10,12 +10,12 @@ export function edgePiece(sticker) {
 	>
 		<path
 			class="sticker sticker-main"
-			d="M36.4839 10H163.516L175 130H25L36.4839 10Z"
+			d="M36.4839 14H163.516L175 134H25L36.4839 14Z"
 			fill="#23C646"
 		/>
 		<path
 			class="sticker sticker-bottom"
-			d="M44.4839 190H155.516L175 130H25L44.4839 190Z"
+			d="M45 186H155L175 134H25L45 186Z"
 			fill="#FF124B"
 		/>
 		
