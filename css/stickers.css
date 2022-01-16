@@ -191,6 +191,7 @@
 }
 
 .piece-frame {
+  height: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
