@@ -19,30 +19,24 @@
 		<nav class="tab-bar">
 			<ul class="tab-list horizontal">
 				<li class="tab-list-item"><a href="/home.html">Edges</a></li>
-				<li class="tab-list-item active"><a href="/two-pieces.html">Edge Pairs</a></li>
-				<li class="tab-list-item"><a href="/corners.html">Corners</a></li>
+				<li class="tab-list-item"><a href="/two-pieces.html">Edge Pairs</a></li>
+				<li class="tab-list-item active"><a href="/corners.html">Corners</a></li>
 			</ul>
 		</nav>
-		<div class="piece-frame double">
+		<div class="piece-frame">
 			<div class="piece-parent">
-				<svg class="piece edge a" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path class="sticker sticker-main" d="M36.4839 10H163.516L175 130H25L36.4839 10Z" fill="#23C646" />
-					<path class="sticker sticker-bottom" d="M44.4839 190H155.516L175 130H25L44.4839 190Z"
-						fill="#FF124B" />
+				<svg class="piece corner" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path class="sticker sticker-primary"
+						d="M99.9031 11L179.806 66.9031L99.9031 122.806L20 66.9031L99.9031 11Z" fill="white" />
+					<path class="sticker sticker-secondary" d="M29 134L100 190V123L20 67L29 134Z" fill="#0797FF" />
+					<path class="sticker sticker-tertiary" d="M171 134L100 190V123L180 67L171 134Z" fill="#B822FF" />
 				</svg>
 			</div>
 		</div>
-		<div class="letter-container double">
-			<div class="">
-				<h1 id="content-letter-left" class="letter left status-pending">
-					?
-				</h1>
-			</div>
-			<div class="">
-				<h1 id="content-letter-right" class="letter right status-pending">
-					?
-				</h1>
-			</div>
+		<div class="letter-container ">
+			<h1 id="content-letter" class="letter status-pending">
+				?
+			</h1>
 		</div>
 		<div class="scores-container ">
 			<div class="scores scores-flex">
@@ -61,7 +55,7 @@
 	</div>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
 		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="/script/two-pieces.js" type="module"></script>
+	<script src="/script/corners.js" type="module"></script>
 </body>
 
 </html>

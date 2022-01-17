@@ -16,9 +16,52 @@ body {
   background-color: #24272c;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:active, a:visited {
+  color: white;
+}
+
+nav ul.tab-list {
+  padding: 2em;
+  margin-bottom: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1.25em;
+  list-style: none;
+}
+
+nav ul.tab-list li.tab-list-item {
+  cursor: pointer;
+}
+
+nav ul.tab-list li.tab-list-item a {
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+  color: #8e939b;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+nav ul.tab-list li.tab-list-item.active a {
+  color: white;
+}
+
+nav ul.tab-list li.tab-list-item:hover a {
+  color: #eee;
+}
+
 .content {
   padding: 2em;
-  margin: 3em auto 0 auto;
+  margin: 0 auto;
   max-width: 800px;
 }
 

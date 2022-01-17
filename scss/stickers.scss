@@ -5,7 +5,7 @@ $blue: #0797ff;
 $yellow: #ebff03;
 $green: #23c646;
 
-$stickers: (
+$edge-stickers: (
 	'a': $white $blue,
 	'b': $white $red,
 	'c': $white $green,
@@ -32,13 +32,54 @@ $stickers: (
 	'x': $yellow $orange,
 );
 
-@each $sticker, $colors in $stickers {
+@each $sticker, $colors in $edge-stickers {
 	.edge.piece.#{$sticker} {
 		.sticker-main {
 			fill: nth($colors, 1);
 		}
 		.sticker-bottom {
 			fill: nth($colors, 2);
+		}
+	}
+}
+
+$corner-stickers: (
+	'a': $white $blue $orange,
+	'b': $white $red $blue,
+	'c': $white $green $red,
+	'd': $white $orange $green,
+	'e': $orange $white $blue,
+	'f': $orange $green $white,
+	'g': $orange $yellow $green,
+	'h': $orange $blue $yellow,
+	'i': $green $white $orange,
+	'j': $green $red $white,
+	'k': $green $yellow $red,
+	'l': $green $orange $yellow,
+	'm': $red $white $green,
+	'n': $red $blue $white,
+	'o': $red $yellow $blue,
+	'p': $red $green $yellow,
+	'q': $blue $white $red,
+	'r': $blue $orange $white,
+	's': $blue $yellow $orange,
+	't': $blue $red $yellow,
+	'u': $yellow $green $orange,
+	'v': $yellow $red $green,
+	'w': $yellow $blue $red,
+	'x': $yellow $orange $blue,
+);
+
+@each $sticker, $colors in $corner-stickers {
+	.corner.piece.#{$sticker} {
+		.sticker-primary {
+			fill: nth($colors, 1);
+		}
+		.sticker-secondary {
+			fill: nth($colors, 2);
+		}
+		.sticker-tertiary {
+			fill: nth($colors, 3);
 		}
 	}
 }

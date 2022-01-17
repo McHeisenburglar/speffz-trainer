@@ -25,9 +25,45 @@ body {
 	background-color: $ui-bg-02;
 }
 
+a {
+	color: white;
+	text-decoration: none;
+	&:active,
+	&:visited {
+		color: white;
+	}
+}
+
+nav {
+	ul.tab-list {
+		padding: 2em;
+		margin-bottom: 1em;
+		display: flex;
+		justify-content: center;
+		gap: 1.25em;
+		list-style: none;
+		li.tab-list-item {
+			cursor: pointer;
+			a {
+				font-weight: 600;
+				text-transform: uppercase;
+				display: inline-block;
+				color: #8e939b;
+				transition: 0.2s;
+			}
+			&.active a {
+				color: white;
+			}
+			&:hover a {
+				color: #eee;
+			}
+		}
+	}
+}
+
 .content {
 	padding: 2em;
-	margin: 3em auto 0 auto;
+	margin: 0 auto;
 	max-width: 800px;
 	// background-color: $ui-bg-01;
 }

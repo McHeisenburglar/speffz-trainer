@@ -190,6 +190,294 @@
   fill: #ff7a00;
 }
 
+.corner.piece.a .sticker-primary {
+  fill: #ffffff;
+}
+
+.corner.piece.a .sticker-secondary {
+  fill: #0797ff;
+}
+
+.corner.piece.a .sticker-tertiary {
+  fill: #ff7a00;
+}
+
+.corner.piece.b .sticker-primary {
+  fill: #ffffff;
+}
+
+.corner.piece.b .sticker-secondary {
+  fill: #ff124b;
+}
+
+.corner.piece.b .sticker-tertiary {
+  fill: #0797ff;
+}
+
+.corner.piece.c .sticker-primary {
+  fill: #ffffff;
+}
+
+.corner.piece.c .sticker-secondary {
+  fill: #23c646;
+}
+
+.corner.piece.c .sticker-tertiary {
+  fill: #ff124b;
+}
+
+.corner.piece.d .sticker-primary {
+  fill: #ffffff;
+}
+
+.corner.piece.d .sticker-secondary {
+  fill: #ff7a00;
+}
+
+.corner.piece.d .sticker-tertiary {
+  fill: #23c646;
+}
+
+.corner.piece.e .sticker-primary {
+  fill: #ff7a00;
+}
+
+.corner.piece.e .sticker-secondary {
+  fill: #ffffff;
+}
+
+.corner.piece.e .sticker-tertiary {
+  fill: #0797ff;
+}
+
+.corner.piece.f .sticker-primary {
+  fill: #ff7a00;
+}
+
+.corner.piece.f .sticker-secondary {
+  fill: #23c646;
+}
+
+.corner.piece.f .sticker-tertiary {
+  fill: #ffffff;
+}
+
+.corner.piece.g .sticker-primary {
+  fill: #ff7a00;
+}
+
+.corner.piece.g .sticker-secondary {
+  fill: #ebff03;
+}
+
+.corner.piece.g .sticker-tertiary {
+  fill: #23c646;
+}
+
+.corner.piece.h .sticker-primary {
+  fill: #ff7a00;
+}
+
+.corner.piece.h .sticker-secondary {
+  fill: #0797ff;
+}
+
+.corner.piece.h .sticker-tertiary {
+  fill: #ebff03;
+}
+
+.corner.piece.i .sticker-primary {
+  fill: #23c646;
+}
+
+.corner.piece.i .sticker-secondary {
+  fill: #ffffff;
+}
+
+.corner.piece.i .sticker-tertiary {
+  fill: #ff7a00;
+}
+
+.corner.piece.j .sticker-primary {
+  fill: #23c646;
+}
+
+.corner.piece.j .sticker-secondary {
+  fill: #ff124b;
+}
+
+.corner.piece.j .sticker-tertiary {
+  fill: #ffffff;
+}
+
+.corner.piece.k .sticker-primary {
+  fill: #23c646;
+}
+
+.corner.piece.k .sticker-secondary {
+  fill: #ebff03;
+}
+
+.corner.piece.k .sticker-tertiary {
+  fill: #ff124b;
+}
+
+.corner.piece.l .sticker-primary {
+  fill: #23c646;
+}
+
+.corner.piece.l .sticker-secondary {
+  fill: #ff7a00;
+}
+
+.corner.piece.l .sticker-tertiary {
+  fill: #ebff03;
+}
+
+.corner.piece.m .sticker-primary {
+  fill: #ff124b;
+}
+
+.corner.piece.m .sticker-secondary {
+  fill: #ffffff;
+}
+
+.corner.piece.m .sticker-tertiary {
+  fill: #23c646;
+}
+
+.corner.piece.n .sticker-primary {
+  fill: #ff124b;
+}
+
+.corner.piece.n .sticker-secondary {
+  fill: #0797ff;
+}
+
+.corner.piece.n .sticker-tertiary {
+  fill: #ffffff;
+}
+
+.corner.piece.o .sticker-primary {
+  fill: #ff124b;
+}
+
+.corner.piece.o .sticker-secondary {
+  fill: #ebff03;
+}
+
+.corner.piece.o .sticker-tertiary {
+  fill: #0797ff;
+}
+
+.corner.piece.p .sticker-primary {
+  fill: #ff124b;
+}
+
+.corner.piece.p .sticker-secondary {
+  fill: #23c646;
+}
+
+.corner.piece.p .sticker-tertiary {
+  fill: #ebff03;
+}
+
+.corner.piece.q .sticker-primary {
+  fill: #0797ff;
+}
+
+.corner.piece.q .sticker-secondary {
+  fill: #ffffff;
+}
+
+.corner.piece.q .sticker-tertiary {
+  fill: #ff124b;
+}
+
+.corner.piece.r .sticker-primary {
+  fill: #0797ff;
+}
+
+.corner.piece.r .sticker-secondary {
+  fill: #ff7a00;
+}
+
+.corner.piece.r .sticker-tertiary {
+  fill: #ffffff;
+}
+
+.corner.piece.s .sticker-primary {
+  fill: #0797ff;
+}
+
+.corner.piece.s .sticker-secondary {
+  fill: #ebff03;
+}
+
+.corner.piece.s .sticker-tertiary {
+  fill: #ff7a00;
+}
+
+.corner.piece.t .sticker-primary {
+  fill: #0797ff;
+}
+
+.corner.piece.t .sticker-secondary {
+  fill: #ff124b;
+}
+
+.corner.piece.t .sticker-tertiary {
+  fill: #ebff03;
+}
+
+.corner.piece.u .sticker-primary {
+  fill: #ebff03;
+}
+
+.corner.piece.u .sticker-secondary {
+  fill: #23c646;
+}
+
+.corner.piece.u .sticker-tertiary {
+  fill: #ff7a00;
+}
+
+.corner.piece.v .sticker-primary {
+  fill: #ebff03;
+}
+
+.corner.piece.v .sticker-secondary {
+  fill: #ff124b;
+}
+
+.corner.piece.v .sticker-tertiary {
+  fill: #23c646;
+}
+
+.corner.piece.w .sticker-primary {
+  fill: #ebff03;
+}
+
+.corner.piece.w .sticker-secondary {
+  fill: #0797ff;
+}
+
+.corner.piece.w .sticker-tertiary {
+  fill: #ff124b;
+}
+
+.corner.piece.x .sticker-primary {
+  fill: #ebff03;
+}
+
+.corner.piece.x .sticker-secondary {
+  fill: #ff7a00;
+}
+
+.corner.piece.x .sticker-tertiary {
+  fill: #0797ff;
+}
+
 .piece-frame {
   height: 320px;
   display: -webkit-box;
