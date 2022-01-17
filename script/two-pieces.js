@@ -66,7 +66,6 @@ function renderCurrentPieces() {
 function increment() {
 	index += 2;
 	if (index >= sequence.length) {
-		console.log('🎉 New sequence');
 		sequence = newSequence();
 		index = 0;
 	}
@@ -111,7 +110,10 @@ function resetStyles() {
 window.addEventListener('keypress', (e) => {
 	const letter = e.key.toLowerCase();
 
-	if (LETTERS.includes(letter)) {
+	if (letter === 'backspace' && !!guess.left && !guess.right) {
+		guess.left = null;
+		styleLetter('left', 'pending');
+	} else if (LETTERS.includes(letter)) {
 		if (guess.left && guess.right) {
 			resetGuesses();
 			resetStyles();
@@ -141,7 +143,23 @@ window.addEventListener('keypress', (e) => {
 			}
 		}
 	}
+
 	render();
+});
+
+window.addEventListener('keydown', (e) => {
+	if (e.key === 'Backspace') {
+		if (guess.left && !guess.right) {
+			guess.left = null;
+			styleLetter('left', 'pending');
+			render();
+		} else if (guess.left && guess.right) {
+			guess.right = null;
+			styleLetter('left', 'normal');
+			styleLetter('right', 'pending');
+			render();
+		}
+	}
 });
 
 function reveal() {
